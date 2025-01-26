@@ -1,21 +1,23 @@
-#Project Structure
+# Project Structure
+
 FORM/
-├── .venv/                     
-├── .vscode/
-├── flask_session/         -get created through library 
-├── static/                -add like these 
-│ ├── auth_script.js
-│ ├── bank_script.js
-│ └── bank_style.css
-├── templates/             -add like these 
-│ ├── auth_form.html
-│ └── bank_form.html
-├── .env
-├── .env.example
-├── app.log 
-├── app.py                 -add like these 
-├── README.md
-└── requirements.txt
+├── .venv/                      # Virtual environment (created using a library)
+├── .vscode/                    # Visual Studio Code settings
+├── flask_session/              # Session data (created through library)
+├── static/                     # Static files
+│   ├── auth_script.js          # Authentication JavaScript
+│   ├── bank_script.js          # Banking JavaScript
+│   └── bank_style.css          # Banking styles
+├── templates/                  # HTML templates
+│   ├── auth_form.html          # Authentication form template
+│   └── bank_form.html          # Bank form template
+├── .env                         # Environment variables (local)
+├── .env.example                # Example environment variables
+├── app.log                      # Application log file
+├── app.py                       # Main Flask application
+├── README.md                   # Project documentation
+└── requirements.txt            # Python dependencies
+
 
 # Voice-Enabled Bank Form Application
 
